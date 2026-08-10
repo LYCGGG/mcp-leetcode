@@ -1,0 +1,19 @@
+# mcp-leetcode 配置示例
+# 复制此文件为 config.yaml 并填入你的配置
+
+# LeetCode 站点配置
+site: cn  # "cn" (leetcode.cn) 或 "global" (leetcode.com)
+
+# 认证配置 (可选，用于获取个人数据)
+auth:
+  session: ""      # LEETCODE_SESSION cookie 值
+  csrf_token: ""   # csrftoken cookie 值
+
+# 缓存配置
+cache:
+  enabled: true
+  ttl_seconds: 300  # 缓存过期时间 (秒)
+
+# 日志配置
+logging:
+  level: INFO       # DEBUG, INFO, WARNING, ERROR
