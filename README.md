@@ -4,6 +4,8 @@
 [![MCP](https://img.shields.io/badge/MCP-SDK-green.svg)](https://modelcontextprotocol.io)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
+[English](README.md) | [中文](README_zh.md)
+
 A feature-rich LeetCode MCP Server written in Python, supporting both leetcode.com and leetcode.cn.
 
 ## Features
